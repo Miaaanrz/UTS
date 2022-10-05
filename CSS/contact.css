@@ -1,0 +1,319 @@
+* {padding: 0; margin: 0;}
+
+body {background-color: white;}
+
+/*mengatur logo dan label kiln*/
+.kiln {float: left;
+       width: 50px; 
+       height: 50px;
+       margin-left: 25px;
+       margin-top: 15px;}
+
+p {font-size: 15px; 
+   float: left; 
+   margin-left: 15px; 
+   font-size: 30px; 
+   margin-right: 80px;
+   margin-top: -8px;}
+
+/*mengatur menu pulldown*/
+nav {position: relative;
+     background: white; 
+     width: 100%; 
+     height: 90px; 
+     line-height: 100px;}
+nav {position: sticky; 
+     top: 0; 
+     z-index: 1;}
+
+nav ul li {float: left; 
+           list-style: none; 
+           margin-right: 15px; 
+           margin-top: -10px; 
+           font-size: 17px;}
+
+nav ul li a {margin-right: 10px; 
+             text-decoration: none; 
+             color: black;}
+
+nav ul li ul {display: none; 
+              position: absolute; 
+              z-index: 1;}
+
+nav ul li:hover ul {display: block; } 
+
+nav ul li ul li {float: none; 
+                 padding: 20px; 
+                 background-color: white; 
+                 line-height: 20px; 
+                 text-align: left;}
+
+nav ul li ul li a {margin-top: 3px;}
+
+nav ul li a:hover {color: rgb(7, 127, 131); 
+                   transition: 0.3s;}
+
+nav ul li:hover {background: white;}
+
+/*mengatur menu sebelah kanan*/
+.icon {float: right;
+       width: 32%;
+       height: 100%;}
+
+.icon img {width: 15px; 
+           float: left; 
+           margin: 32px 15px 0 0; }
+
+.icon .phone {float: left; 
+              margin-left: 3px;
+              margin: 32px 10px 0 0;}
+           
+.icon .no {font-size: 17px; 
+           margin: -10px 25px 0 0; 
+           float: left;} 
+
+.icon .search {float: right; 
+               padding: 38px 20px 39px 20px; 
+               margin: 0px 0 0 0;
+               background: rgba(7, 127, 131, 0.404);}
+
+/*mengatur banner*/
+.banner {position: relative;
+         width: 100%; }
+
+.banner img {width: 100%; 
+             position: relative;}
+
+.container_banner {width: 100%;
+                   position: absolute;
+                   top: 40%; 
+                   height: 100px; }
+
+.banner .text {position: absolute; 
+               left: 46%; 
+               right: 46%;
+               color: rgb(6, 95, 100); 
+               font-size: 60px; 
+               font-family: 'Times New Roman';}
+
+.banner .text1 {position: absolute; 
+                left: 40%;
+                right: 30%;
+                top: 65%; 
+                color: rgb(6, 95, 100);
+                font-size: 25px; }
+
+/*mengatur gmaps, get intouch dan form kiri*/
+.getintouch {width: 1100px; 
+             margin:auto;}
+
+iframe {width: 100%; 
+        margin: 15% 0;}
+
+.getintouch p {font-size: 30px; 
+               margin-left: 0;}
+
+.form {width: 100%; 
+      float: left; 
+      margin-bottom: 20%;}
+
+form {width: 70%; 
+      float: left;}
+
+[type="text"], [type="submit"] {margin-top: 25px; 
+                                margin-right: 10px; 
+                                padding: 11px;}
+
+[id="messege"] , [id="subject"]  {width: 90%;}
+
+[id="name"] , [id="email"] {width: 42.4%}
+
+[type="submit"] {background: rgb(7, 127, 131); 
+                 color: white; 
+                 border: none; 
+                 cursor: pointer;}
+
+[type="submit"]:hover {background: rgb(6, 68, 71); 
+                       transition: 0.5s;}
+
+/*mengatur form kanan*/
+.formkanan {width: 30%; 
+            float: right; 
+            font-family: Trebuchet;}
+
+.formkanan .foto {width: 15%; 
+                  float: left; 
+                  margin-top: 25px;
+                  margin-bottom: 25px; 
+                  margin-left: 70px;}
+
+.formkanan .foto img {width: 33px; 
+                      margin-bottom: 30px;}
+
+.formkanan .text {width: 61.5%; 
+                  float: right;}
+
+.formkanan .text .t1 {margin-top: 25px; 
+                     font-size: 19px;}
+
+.formkanan .text .t1 p {margin-top: 3px; 
+                        font-size: 13px; 
+                        color: gray; 
+                        letter-spacing: 0.5px; 
+                        width: 100%; }
+
+.formkanan .text .t2 {margin-top: 42px; 
+                      font-size: 19px;}
+
+.formkanan .text .t2 p {margin-top: 3px; 
+                        font-size: 13px; 
+                        color: gray; 
+                        letter-spacing: 0.5px; 
+                        width: 100%; }
+
+.formkanan .text .t3 {margin-top: 48px; 
+                      font-size: 19px;}
+
+.formkanan .text .t3 p {margin-top: 3px; 
+                        font-size: 13px; 
+                        color: gray; 
+                        letter-spacing: 0.5px; width: 100%; }
+
+/*mengatur footer*/
+footer {width: 100%; 
+        margin: auto;
+        float: left; 
+        background: rgb(7, 127, 131);}
+
+footer .widget {width: 100%; 
+                margin: 5% 0;
+                height: 350px;}
+
+footer .widget .widget_tools {height: 100%; 
+                              margin: 0 10%;
+                              letter-spacing: 1.5px;}
+
+footer .widget .widget_tools .logo {float: left;
+                                    width: 25%;         
+                                    height: 100%;} /*mengatur container logo*/
+
+footer .logo .logo_kiln {width: 25%; 
+                         margin-top: 20px; 
+                         float: left;}
+
+footer .logo .brand_name {margin-top: 35px; 
+                          float: left; 
+                          font-size: 23px; 
+                          text-decoration: none;
+                          width: 154px;
+                          color: white;
+                          margin-left: 15px;}
+
+.widget_alamat {float: left; 
+                margin: 81px 0;
+                color: white;  
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.widget_alamat p {font-size: 13px;
+                  margin-left: 0; 
+                  width: 100%; }
+
+.widget_alamat a {font-size: 13px; 
+                  text-decoration: none; 
+                  color: white;}
+
+.widget_alamat a:hover {color: rgb(3, 40, 42); 
+                        transition: 0.5s;}
+
+footer .logo img {width: 10%; 
+                  float: left}
+
+.widget_icon .image {margin-right: 20px; 
+                     width: 20px;}
+
+.widget_tools .collection {float: left;
+                           width: 20%;
+                           margin-left: 0px;
+                           height: 100%;} /*mengatur container collection*/
+
+.widget_tools .collection .collect .header {margin-top: 18px;
+                                            font-size: 23px; 
+                                            width: 195px;
+                                            margin-bottom: 45px;
+                                            color: white;
+                                            margin-left: 0;}
+                                            
+.morec a {margin-top: 17.5px; 
+          font-size: 13px; 
+          display: block;
+          text-decoration: none;
+          color: white;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.morec a:hover {color: rgb(3, 40, 42); 
+                transition: 0.5s;}
+
+.widget_tools .branch {float: left;
+                       width: 25%;
+                       height: 100%;} /*mengatur container branch*/
+
+.branch .boffice .header {margin-top: 35px;
+                          font-size: 23px; 
+                          width: 173px; 
+                          margin-bottom: 29px;
+                          color: white; 
+                          margin-left: 0;}
+
+.moreb .kiri  {width: 40%; 
+               float: left;}
+
+.moreb .kanan {width: 45%; 
+                float: left;
+                margin-left: 30px;}
+
+.moreb .kiri a , .moreb .kanan a {display: block; 
+                                  padding-right: 12px;
+                                  margin-top: 17px;
+                                  color: white; 
+                                  text-decoration: none;
+                                  font-size: 13px;
+                                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.moreb .kiri a:hover {color: rgb(3, 40, 42); 
+                      transition: 0.5s;}
+
+.moreb .kanan a:hover {color: rgb(3, 40, 42); 
+                       transition: 0.5s;}
+
+.insta {float: left;
+        width: 27.5%;
+        margin-left: 0px;
+        height: 100%;} /*mengatur container grid ig*/
+
+.insta .ig {margin-top: 35px;
+            font-size: 23px; 
+            width: 115px; 
+            margin-bottom: 45px; 
+            color: white; 
+            margin-left: 0;}
+   
+.grid , .grid  {width: 255px;
+                margin: 100px 0;}   /*harus ada perbaikan grid*/
+
+.insta .grid img {width: 80px;
+                  margin: 3px 0.5px;
+                  border-radius: 7px;}
+
+footer .ftbawah  .cpyrght {width: 1100px;
+                           padding: 35px 0;
+                           margin: auto; 
+                           border-top: 3px solid rgb(5, 100, 104);} /*mengatur container footer bawah*/
+
+.cpyrght p, .cpyrght a {width: 100%;
+                        color: white; 
+                        text-decoration: none;
+                        text-align: center; 
+                        font-size: 17px;
+                        margin-left: 0;}
+
+.cpyrght a {color:  rgb(8, 47, 49);}

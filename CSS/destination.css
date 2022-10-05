@@ -1,0 +1,971 @@
+* {padding: 0; margin: 0;}
+
+body {background-color: white;}
+
+/*mengatur logo dan label kiln*/
+.kiln {float: left;
+       width: 50px; 
+       height: 50px;
+       margin-left: 25px;
+       margin-top: 15px;}
+
+p {font-size: 15px; 
+   float: left; 
+   margin-left: 15px; 
+   font-size: 30px; 
+   margin-right: 80px; 
+   margin-top: -8px;}
+
+
+/*mengatur menu pulldown*/
+nav {position: relative;
+     background: white; 
+     width: 100%; 
+     height: 90px;
+     line-height: 100px;}
+nav {position: sticky; 
+     top: 0; 
+     z-index: 5;}
+
+nav ul li {float: left; 
+           list-style: none; 
+           margin-right: 15px; 
+           margin-top: -10px; 
+           font-size: 17px;}
+
+nav ul li a {margin-right: 10px; 
+             text-decoration: none; 
+             color: black;}
+
+nav ul li ul {display: none; 
+              position: absolute; 
+              z-index: 5;}
+
+nav ul li:hover ul {display: block; } 
+
+nav ul li ul li {float: none; 
+                 padding: 20px; 
+                 background-color: white; 
+                 line-height: 20px; 
+                 text-align: left;}
+
+nav ul li ul li a {margin-top: 3px;}
+
+nav ul li a:hover {color: rgb(7, 127, 131); 
+                   transition: 0.3s;}
+
+nav ul li:hover {background: white;}
+
+
+/*mengatur menu sebelah kanan*/
+.icon {float: right;
+       width: 32%;
+       height: 100%;}
+
+.icon img {width: 15px; 
+           float: left; 
+           margin: 32px 15px 0 0; }
+
+.icon .phone {float: left; 
+              margin-left: 3px;
+              margin: 32px 10px 0 0;}
+       
+.icon .no {font-size: 17px; 
+           margin: -10px 25px 0 0; 
+           float: left;} 
+
+.icon .search {float: right; 
+               padding: 38px 20px 39px 20px; 
+               margin: 0px 0 0 0;
+               background: rgba(7, 127, 131, 0.404);}
+
+/*mengatur banner*/
+.banner {position: relative;
+         width: 100%; }
+
+.banner img {width: 100%; 
+             position: relative;}
+
+.container_banner {width: 100%;
+                  position: absolute;
+                  top: 40%; 
+                  height: 100px;}
+
+.banner .text {position: absolute;  
+               width: 100%;
+               text-align: right; 
+               margin-left: -100px;
+               color: whitesmoke;
+               font-size: 60px; 
+               font-family: 'Times New Roman';}
+
+.banner .text1 {position: absolute; 
+                width: 100%;
+                text-align: right; 
+                margin-left: -100px;
+                top: 70%; 
+                color: whitesmoke;
+                font-size: 25px;}
+
+
+/*mengatur container event*/
+.container {width: 100%; 
+            background:  rgb(7, 127, 131);
+            height: 85px; 
+            margin-top: -4px;}
+
+.container_wrap {height: 100%;
+          margin: 0 20%; 
+          height: 85px;}
+
+.container_wrap .txt {float: left;
+                      width: 30%; 
+                      height: 100%;
+                      color: white;}
+
+.container_wrap .txt p {margin: 12% 0; 
+                       font-size: 23px;}
+
+.container_wrap form {float: left;
+                      width: 70%; 
+                      margin: 30px 0;}
+
+.container_wrap form [type="text"]  {padding: 7px 5px; 
+                                     width: 22.5%;
+                                     float: left; 
+                                     margin-right: 8px;
+                                     border-radius: 5px; 
+                                     border: none;
+                                     color: rgb(7, 127, 131);}
+
+.container_wrap form ::placeholder {color: rgb(7, 127, 131);}
+
+.container_wrap form select  {float: right; 
+                              font-size: 12px;
+                              width: 20%;
+                              margin: -18.5px 0 0 0; }
+
+.container_wrap form button {float: right; 
+                             width: 22.5%;  
+                             color: rgb(7, 127, 131);
+                             border-radius: 5px; border: none;
+                             padding: 6.5px 0; 
+                             cursor: pointer; 
+                             margin-top: -18.5px;}
+
+.container_wrap form button:hover {background: rgb(6, 68, 71); 
+                                   color: white; 
+                                   transition: 0.5s;}
+
+
+/*mengatur container jewelry*/
+.container_jewelry {width: 100%;
+                    height: 1200px;
+                    position: relative;
+                    float: left;}
+
+.wrap_jewelry {width: 100%;
+               height: 1000px;
+               position: relative;
+               float: left; 
+               margin: 8% 0;}
+
+.jewelry {width: 1000px;
+          position: relative;
+          margin: auto;
+          height: 100%;}
+
+
+/*mengatur container kiri*/
+.container_left {width: 35%;
+                 height: 100%; 
+                 float: left;
+                 position: relative;} 
+
+.container_left h1 {font-size: 20px; 
+                    color: rgb(7, 127, 131); 
+                    margin-bottom: 20px;}
+
+.container_left form {background: whitesmoke; 
+                      width: 85%;
+                      height: 22%; 
+                      float: left;
+                      border-radius: 5%; 
+                      padding: 10px 0;}
+
+.container_left form select {float: left; 
+                             width: 90%; 
+                             padding: 2%; height: 15%;
+                             margin: 10px 15px 0 15px; 
+                             border-radius: 3%; 
+                             color: gray; 
+                             cursor: pointer;}
+
+.container_left form select option {color: black;}
+
+.container_left form p {margin: 10px 0 0 15px; 
+                        float: left; 
+                        font-size: 15px; 
+                        font-family: Arial, Helvetica, sans-serif; 
+                        color: rgb(7, 127, 131);}
+
+.slider {-webkit-appearance: none;
+         width: 90%;
+         height: 10px;
+         border-radius: 5px; 
+         margin: 10px 0 0 15px; 
+         background: rgb(207, 197, 197);
+         outline: none;
+         opacity: 0.7; 
+         -webkit-transition: .2s;
+         transition: opacity .2s;}
+
+        
+.slider::-webkit-slider-thumb {-webkit-appearance: none;
+                               appearance: none;
+                               width: 15px;
+                               height: 15px; 
+                               background-color: rgb(7, 127, 131); 
+                               border-radius: 50%;
+                               cursor: pointer;}
+
+.container_left form button {float: left; 
+                             width: 90%; 
+                             padding: 10px; 
+                             border: none; 
+                             margin: 10px 0 0 15px; 
+                             background-color: rgb(7, 127, 131); 
+                             color: white; 
+                             cursor: pointer;}
+
+.container_left form button:hover {background-color: rgb(6, 68, 71); 
+                                   transition: 0.5s;}
+        
+/*mengatur container kanan*/
+.container_right {width: 65%;
+                  height: 100%; 
+                  position: relative;
+                  float: left;
+                  font-family: "Book Antiqua" , serif;}
+
+.container_right .foto1 {float: left; 
+                  background: whitesmoke; 
+                  border-top-left-radius: 7px;
+                  border-top-right-radius: 7px;
+                  width: 300px; 
+                  height: 27%;
+                  position: relative;}
+                        
+.container_right .foto1 img {position: relative;
+                             border-top-left-radius: 7px;
+                             border-top-right-radius: 7px;
+                             width: 300px;}
+                        
+.container_right .foto1 .no a {position: absolute; 
+                               color: rgb(7, 127, 131); 
+                               background: rgb(255, 255, 255); 
+                               padding: 2px 15px; 
+                               font-family: Arial, Helvetica, sans-serif; 
+                               font-size: 13px; 
+                               border-radius: 7px; 
+                               top: 7%; 
+                               left: 8%; 
+                               text-decoration: none;}
+                        
+.container_right .foto1:hover .no a {background:  rgb(7, 127, 131); 
+                                    color: white; 
+                                    transition: 0.4s;}    
+                        
+.container_right .foto1:hover .ket a {color: rgb(61, 201, 206);
+                                     transition: 0.4s;}
+
+.container_right .foto1 .ket a{position: absolute; 
+                              top: 68%; 
+                              left: 5%;
+                              color: rgb(7, 127, 131);  
+                              font-size: 20px;
+                              font-family: garamond; 
+                              text-decoration: none;}
+                        
+.container_right .foto1 .loc  {position: absolute; 
+                               top: 76%; 
+                               left: 5%;
+                               color: gray; 
+                               font-size: 16px;
+                               font-family: garamond;}
+  
+.container_right .foto1 .star  {position: absolute; 
+                                top: 87%; 
+                                left: 5%;
+                                color: goldenrod; 
+                                font-size: 16px;
+                                font-family: garamond; 
+                                letter-spacing: -3px;}
+  
+.container_right .foto1 .review {position: absolute;
+                                 top: 88%;
+                                 left: 26%; 
+                                 color: gray;
+                                 font-size: 16px;
+                                 font-family: garamond;}
+  
+.container_right .foto1 .fa-clock-o {position: absolute;
+                                    top: 88.6%;
+                                    left: 76%; 
+                                    color: gray;
+                                    font-size: 13.5px;}
+
+
+.container_right .foto2 {float: right; 
+                         background: whitesmoke; 
+                         border-top-left-radius: 7px;
+                         border-top-right-radius: 7px;
+                         width: 300px; 
+                         height: 27%;
+                         position: relative;}
+                                              
+.container_right .foto2 img {position: relative;
+                             border-top-left-radius: 7px;
+                             border-top-right-radius: 7px;
+                             width: 300px;}
+                                              
+.container_right .foto2 .no a {position: absolute; 
+                               color: rgb(7, 127, 131); 
+                               background: rgb(255, 255, 255); 
+                               padding: 2px 15px; 
+                               font-family: Arial, Helvetica, sans-serif; 
+                               font-size: 13px; 
+                               border-radius: 7px; 
+                               top: 7%; 
+                               left: 8%; 
+                               text-decoration: none;}
+                                              
+.container_right .foto2:hover .no a {background:  rgb(7, 127, 131); 
+                                     color: white; 
+                                     transition: 0.4s;}    
+                                              
+.container_right .foto2:hover .ket a {color: rgb(61, 201, 206);
+                                      transition: 0.4s;}
+                      
+.container_right .foto2 .ket a{position: absolute; 
+                               top: 68%; 
+                               left: 5%;
+                               color: rgb(7, 127, 131);  
+                               font-size: 20px;
+                               font-family: garamond; 
+                               text-decoration: none;}
+                                              
+.container_right .foto2 .loc  {position: absolute; 
+                               top: 76%; 
+                               left: 5%;
+                               color: gray; 
+                               font-size: 16px;
+                               font-family: garamond;}
+                        
+.container_right .foto2 .star  {position: absolute; 
+                                top: 87%; 
+                                left: 5%;
+                                color: goldenrod; 
+                                font-size: 16px;
+                                font-family: garamond; 
+                                letter-spacing: -3px;}
+                        
+.container_right .foto2 .review {position: absolute;
+                                 top: 88%;
+                                 left: 26%; 
+                                 color: gray;
+                                 font-size: 16px;
+                                 font-family: garamond;}
+                        
+.container_right .foto2 .fa-clock-o {position: absolute;
+                                     top: 88.6%;
+                                     left: 76%; 
+                                     color: gray;
+                                     font-size: 13.5px;}
+
+
+.container_right .foto3 {float: left; 
+                         background: whitesmoke; 
+                         border-top-left-radius: 7px;
+                         border-top-right-radius: 7px;
+                         width: 300px; 
+                         height: 27%; 
+                         top: 4%;
+                         position: relative;}
+                                              
+.container_right .foto3 img {position: relative;
+                             border-top-left-radius: 7px;
+                             border-top-right-radius: 7px;
+                             width: 300px;}
+                                              
+.container_right .foto3 .no a {position: absolute; 
+                               color: rgb(7, 127, 131); 
+                               background: rgb(255, 255, 255); 
+                               padding: 2px 15px; 
+                               font-family: Arial, Helvetica, sans-serif; 
+                               font-size: 13px; 
+                               border-radius: 7px; 
+                               top: 7%; 
+                               left: 8%; 
+                               text-decoration: none;}
+                                              
+.container_right .foto3:hover .no a {background:  rgb(7, 127, 131); 
+                                     color: white; 
+                                     transition: 0.4s;}    
+                                              
+.container_right .foto3:hover .ket a {color: rgb(61, 201, 206);
+                                      transition: 0.4s;}
+                      
+.container_right .foto3 .ket a{position: absolute; 
+                               top: 68%; 
+                               left: 5%;
+                               color: rgb(7, 127, 131);  
+                               font-size: 20px;
+                               font-family: garamond; 
+                               text-decoration: none;}
+                                              
+.container_right .foto3 .loc  {position: absolute; 
+                               top: 76%; 
+                               left: 5%;
+                               color: gray; 
+                               font-size: 16px;
+                               font-family: garamond;}
+                        
+.container_right .foto3 .star  {position: absolute; 
+                                top: 87%; 
+                                left: 5%;
+                                color: goldenrod; 
+                                font-size: 16px;
+                                font-family: garamond; 
+                                letter-spacing: -3px;}
+                        
+.container_right .foto3 .review {position: absolute;
+                                 top: 88%;
+                                 left: 26%; 
+                                 color: gray;
+                                 font-size: 16px;
+                                 font-family: garamond;}
+                        
+.container_right .foto3 .fa-clock-o {position: absolute;
+                                     top: 88.6%;
+                                     left: 76%; 
+                                     color: gray;
+                                     font-size: 13.5px;}
+
+          
+.container_right .foto4 {float: right; 
+                         background: whitesmoke; 
+                         border-top-left-radius: 7px;
+                         border-top-right-radius: 7px;
+                         width: 300px; 
+                         height: 27%; 
+                         top: 4%;
+                         position: relative;}
+                                              
+.container_right .foto4 img {position: relative;
+                             border-top-left-radius: 7px;
+                             border-top-right-radius: 7px;
+                             width: 300px;}
+                                              
+.container_right .foto4 .no a {position: absolute; 
+                               color: rgb(7, 127, 131); 
+                               background: rgb(255, 255, 255); 
+                               padding: 2px 15px; 
+                               font-family: Arial, Helvetica, sans-serif; 
+                               font-size: 13px; 
+                               border-radius: 7px; 
+                               top: 7%; 
+                               left: 8%; 
+                               text-decoration: none;}
+                                              
+.container_right .foto4:hover .no a {background:  rgb(7, 127, 131); 
+                                     color: white; 
+                                     transition: 0.4s;}    
+                                              
+.container_right .foto4:hover .ket a {color: rgb(61, 201, 206);
+                                      transition: 0.4s;}
+                      
+.container_right .foto4 .ket a{position: absolute; 
+                               top: 68%; 
+                               left: 5%;
+                               color: rgb(7, 127, 131);  
+                               font-size: 20px;
+                               font-family: garamond; 
+                               text-decoration: none;}
+                                              
+.container_right .foto4 .loc  {position: absolute; 
+                               top: 76%; 
+                               left: 5%;
+                               color: gray; 
+                               font-size: 16px;
+                               font-family: garamond;}
+                        
+.container_right .foto4 .star  {position: absolute; 
+                                top: 87%; 
+                                left: 5%;
+                                color: goldenrod; 
+                                font-size: 16px;
+                                font-family: garamond; 
+                                letter-spacing: -3px;}
+                        
+.container_right .foto4 .review {position: absolute;
+                                 top: 88%;
+                                 left: 26%; 
+                                 color: gray;
+                                 font-size: 16px;
+                                 font-family: garamond;}
+                        
+.container_right .foto4 .fa-clock-o {position: absolute;
+                                     top: 88.6%;
+                                     left: 76%; 
+                                     color: gray;
+                                     font-size: 13.5px;}
+
+                                   
+.container_right .foto5 {float: left; 
+                         background: whitesmoke; 
+                         border-top-left-radius: 7px;
+                         border-top-right-radius: 7px;
+                         width: 300px; 
+                         height: 27%; 
+                         top: 8%;
+                         position: relative;}
+                                              
+.container_right .foto5 img {position: relative;
+                             border-top-left-radius: 7px;
+                             border-top-right-radius: 7px;
+                             width: 300px;}
+                                              
+.container_right .foto5 .no a {position: absolute; 
+                               color: rgb(7, 127, 131); 
+                               background: rgb(255, 255, 255); 
+                               padding: 2px 15px; 
+                               font-family: Arial, Helvetica, sans-serif; 
+                               font-size: 13px; 
+                               border-radius: 7px; 
+                               top: 7%; 
+                               left: 8%; 
+                               text-decoration: none;}
+                                              
+.container_right .foto5:hover .no a {background:  rgb(7, 127, 131); 
+                                     color: white; 
+                                     transition: 0.4s;}    
+                                              
+.container_right .foto5:hover .ket a {color: rgb(61, 201, 206);
+                                      transition: 0.4s;}
+                      
+.container_right .foto5 .ket a{position: absolute; 
+                               top: 68%; 
+                               left: 5%;
+                               color: rgb(7, 127, 131);  
+                               font-size: 20px;
+                               font-family: garamond; 
+                               text-decoration: none;}
+                                              
+.container_right .foto5 .loc  {position: absolute; 
+                               top: 76%; 
+                               left: 5%;
+                               color: gray; 
+                               font-size: 16px;
+                               font-family: garamond;}
+                        
+.container_right .foto5 .star  {position: absolute; 
+                                top: 87%; 
+                                left: 5%;
+                                color: goldenrod; 
+                                font-size: 16px;
+                                font-family: garamond; 
+                                letter-spacing: -3px;}
+                        
+.container_right .foto5 .review {position: absolute;
+                                 top: 88%;
+                                 left: 26%; 
+                                 color: gray;
+                                 font-size: 16px;
+                                 font-family: garamond;}
+                        
+.container_right .foto5 .fa-clock-o {position: absolute;
+                                     top: 88.6%;
+                                     left: 76%; 
+                                     color: gray;
+                                     font-size: 13.5px;}
+
+
+.container_right .foto6 {float: right; 
+                         background: whitesmoke; 
+                         border-top-left-radius: 7px;
+                         border-top-right-radius: 7px;
+                         width: 300px; 
+                         height: 27%; 
+                         top: 8%;
+                         position: relative;}
+                                              
+.container_right .foto6 img {position: relative;
+                             border-top-left-radius: 7px;
+                             border-top-right-radius: 7px;
+                             width: 300px;}
+                                              
+.container_right .foto6 .no a {position: absolute; 
+                               color: rgb(7, 127, 131); 
+                               background: rgb(255, 255, 255); 
+                               padding: 2px 15px; 
+                               font-family: Arial, Helvetica, sans-serif; 
+                               font-size: 13px; 
+                               border-radius: 7px; 
+                               top: 7%; 
+                               left: 8%; 
+                               text-decoration: none;}
+                                              
+.container_right .foto6:hover .no a {background:  rgb(7, 127, 131); 
+                                     color: white; 
+                                     transition: 0.4s;}    
+                                              
+.container_right .foto6:hover .ket a {color: rgb(61, 201, 206);
+                                      transition: 0.4s;}
+                      
+.container_right .foto6 .ket a{position: absolute; 
+                               top: 68%; 
+                               left: 5%;
+                               color: rgb(7, 127, 131);  
+                               font-size: 20px;
+                               font-family: garamond; 
+                               text-decoration: none;}
+                                              
+.container_right .foto6 .loc  {position: absolute; 
+                               top: 76%; 
+                               left: 5%;
+                               color: gray; 
+                               font-size: 16px;
+                               font-family: garamond;}
+                        
+.container_right .foto6 .star  {position: absolute; 
+                                top: 87%; 
+                                left: 5%;
+                                color: goldenrod; 
+                                font-size: 16px;
+                                font-family: garamond; 
+                                letter-spacing: -3px;}
+                        
+.container_right .foto6 .review {position: absolute;
+                                 top: 88%;
+                                 left: 26%; 
+                                 color: gray;
+                                 font-size: 16px;
+                                 font-family: garamond;}
+                        
+.container_right .foto6 .fa-clock-o {position: absolute;
+                                     top: 88.6%;
+                                     left: 76%; 
+                                     color: gray;
+                                     font-size: 13.5px;}
+
+.container_right button {transform: translate(275px, 155px); 
+                         padding: 10px; 
+                         background-color: rgb(7, 127, 131); 
+                         color: white; 
+                         border: none; 
+                         border-radius: 6px; 
+                         cursor: pointer;}
+
+.container_right button:hover {background-color: rgb(6, 68, 71); 
+                               transition: 0.5s;}
+
+
+/*mengatur container newsletter*/
+.container_newsletter {width: 100%;
+                       height: 100px; 
+                       float: left; 
+                       position: relative;}
+
+.container_newsletter img {width: 100%; 
+                           height: 100px; 
+                           position: relative;}
+
+.wrap_newsletter {height: 100%;
+                  position: absolute;
+                  margin: 0 15%; 
+                  width: 70%; 
+                  top: 0; }
+
+.wrap_newsletter .txt {width: 45%; 
+                       float: left;
+                       height: 100%;
+                       color:white;
+                       font-family: garamond; }
+
+.wrap_newsletter .txt h2 {font-size: 26px;
+                          margin-top: 12px; 
+                          width: 100%; 
+                          word-spacing: 3px;}
+
+.wrap_newsletter .txt p  {font-size: 18px;
+                          margin: 5px 0 0; 
+                          width: 87.5%;
+                          word-spacing: 3px;}
+
+.wrap_newsletter  form {float: right;
+                        width: 55%; 
+                        height: 100%;}
+
+.wrap_newsletter form [type="text"]  {padding: 17px 10px; 
+                                      width: 65%;
+                                      float: left; 
+                                      margin-top: 25px;
+                                      border-radius: 6px; 
+                                      border: none;
+                                      color: rgb(7, 127, 131);}
+
+.wrap_newsletter form ::placeholder {color: rgb(7, 127, 131);}
+
+.wrap_newsletter form button {float: right; 
+                              width: 25%;  
+                              color: rgb(7, 127, 131);
+                              border-radius: 6px; 
+                              border: none;
+                              padding: 17px 5px; 
+                              cursor: pointer; 
+                              margin-top: 25px;}
+
+.wrap_newsletter form button:hover {background: rgb(7, 127, 131); 
+                                    color: white; 
+                                    transition: 0.5s;}
+
+
+/*mengatur container jewelry*/
+.container_jw {width: 100%;
+               height: 680px; 
+               float: left;}
+                                
+.wrap_jw {width: 100%; 
+          height: 475px; 
+          float: left; 
+          margin: 80px 0 0 0;}
+                                
+.jw {width: 1000px;
+     margin: auto; 
+     height: 100%;}
+
+.jw .header {font-family: garamond;
+             font-size: 20px; 
+             word-spacing: 5px; 
+             width: 100%;
+             text-align: center;}
+
+.jw .header h1 {color: black;
+                width: 100%;
+                padding: 4% 0 7% 0;
+                font-size: 35px;}
+                                
+.jw .jwpict1 {float: left;
+              width: 32%; 
+              height: 68.5%;
+              position: relative;}
+                                
+.jw .jwpict1 img {position: relative;
+                  border-radius: 10px;
+                  width: 320px;}
+
+.jw .jwpict1 .loc  {position: absolute; 
+                    top: 82%;
+                    color: gray;
+                    font-size: 16px;
+                    font-family: garamond;}
+                                                                                      
+.jw .jwpict1 .ket a{position: absolute; 
+                                  bottom: 0;
+                                  color: rgb(7, 127, 131);  
+                                  font-size: 19.5px;
+                                  text-decoration: none;}
+
+.jw .jwpict1:hover .ket a {color: rgb(61, 201, 206);
+                           transition: 0.4s;}
+
+
+.jw .jwpict2 {float: left; margin: 0 2%;
+              width: 32%; 
+              height: 68.5%;
+              position: relative;}
+                        
+.jw .jwpict2 img {position: relative;
+                  border-radius: 10px;
+                  width: 320px;}
+
+.jw .jwpict2 .loc  {position: absolute; 
+                    top: 82%;
+                    color: gray;
+                    font-size: 16px;
+                    font-family: garamond;}
+                                                                              
+.jw .jwpict2 .ket a {position: absolute; 
+                     bottom: 0;
+                     color: rgb(7, 127, 131);  
+                     font-size: 19.5px;
+                     text-decoration: none;}
+
+.jw .jwpict2:hover .ket a {color: rgb(61, 201, 206);
+                           transition: 0.4s;}
+
+
+.jw .jwpict3 {float: right;
+              width: 32%; 
+              height: 68.5%;
+              position: relative;}
+                        
+.jw .jwpict3 img {position: relative;
+                  border-radius: 10px;
+                  width: 320px;}
+
+.jw .jwpict3 .loc  {position: absolute; 
+                    top: 82%;
+                    color: gray;
+                    font-size: 16px;
+                    font-family: garamond;}
+                                                                              
+.jw .jwpict3 .ket a {position: absolute; 
+                     bottom: 0;
+                     color: rgb(7, 127, 131);  
+                     font-size: 19.5px;
+                     text-decoration: none;}
+
+.jw .jwpict3:hover .ket a {color: rgb(61, 201, 206);
+                           transition: 0.4s;}
+
+
+/*mengatur footer*/
+footer {width: 100%; 
+        margin: auto;
+        float: left; 
+        background: rgb(7, 127, 131);}
+
+footer .widget {width: 100%; 
+                margin: 5% 0;
+                height: 350px;}
+
+footer .widget .widget_tools {height: 100%; 
+                              margin: 0 10%;
+                              letter-spacing: 1.5px;}
+
+footer .widget .widget_tools .logo {float: left;
+                                    width: 25%;         
+                                    height: 100%;} /*mengatur container logo*/
+
+footer .logo .logo_kiln {width: 25%; 
+                         margin-top: 20px; 
+                         float: left;}
+
+footer .logo .brand_name {margin-top: 35px; 
+                          float: left; 
+                          font-size: 23px; 
+                          text-decoration: none;
+                          width: 154px;
+                          color: white;
+                          margin-left: 15px;}
+
+.widget_alamat {float: left; 
+                margin: 81px 0;
+                color: white;  
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.widget_alamat p {font-size: 13px;
+                  margin-left: 0; 
+                  width: 100%; }
+
+.widget_alamat a {font-size: 13px; 
+                  text-decoration: none; 
+                  color: white;}
+
+.widget_alamat a:hover {color: rgb(3, 40, 42);
+                        transition: 0.5s;}
+
+footer .logo img {width: 10%; 
+                  float: left}
+
+.widget_icon .image {margin-right: 20px; 
+                     width: 20px;}
+
+.widget_tools .collection {float: left;
+                           width: 20%;
+                           margin-left: 0px;
+                           height: 100%;} /*mengatur container collection*/
+
+.widget_tools .collection .collect .header {margin-top: 18px;
+                                            font-size: 23px; 
+                                            width: 195px;
+                                            margin-bottom: 45px;
+                                            color: white;
+                                            margin-left: 0;}
+                                            
+.morec a {margin-top: 17.5px; 
+          font-size: 13px; 
+          display: block;
+          text-decoration: none;
+          color: white;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.morec a:hover {color: rgb(3, 40, 42);
+                transition: 0.5s;}
+
+.widget_tools .branch {float: left;
+                       width: 25%;
+                       height: 100%;} /*mengatur container branch*/
+
+.branch .boffice .header {margin-top: 35px;
+                          font-size: 23px; 
+                          width: 173px; 
+                          margin-bottom: 29px;
+                          color: white; 
+                          margin-left: 0;}
+
+.moreb .kiri  {width: 40%; 
+               float: left;}
+
+ .moreb .kanan {width: 45%; 
+                float: left;
+                margin-left: 30px;}
+
+.moreb .kiri a , .moreb .kanan a {display: block; 
+                                  padding-right: 12px;
+                                  margin-top: 17px;
+                                  color: white; 
+                                  text-decoration: none;
+                                  font-size: 13px;
+                                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.moreb .kiri a:hover {color: rgb(3, 40, 42); 
+                      transition: 0.5s;}
+
+.moreb .kanan a:hover {color: rgb(3, 40, 42);
+                       transition: 0.5s;}
+
+.insta {float: left;
+        width: 27.5%;
+        margin-left: 0px;
+        height: 100%;} /*mengatur container grid ig*/
+
+.insta .ig {margin-top: 35px;
+            font-size: 23px; 
+            width: 115px; 
+            margin-bottom: 45px; 
+            color: white; 
+            margin-left: 0;}
+   
+.grid , .grid  {width: 255px;
+                margin: 100px 0;}   /*harus ada perbaikan grid*/
+
+.insta .grid img {width: 80px;
+                  margin: 3px 0.5px;
+                  border-radius: 7px;}
+
+footer .ftbawah  .cpyrght {width: 1100px;
+                           padding: 35px 0;
+                           margin: auto; 
+                           border-top: 3px solid rgb(5, 100, 104);} /*mengatur container footer bawah*/
+
+.cpyrght p, .cpyrght a {width: 100%;
+                        color: white; 
+                        text-decoration: none;
+                        text-align: center; 
+                        font-size: 17px;
+                        margin-left: 0;}
+
+.cpyrght a {color:  rgb(8, 47, 49);}

@@ -1,0 +1,824 @@
+* {padding: 0; margin: 0;}
+
+body {background-color: white;}
+
+/*mengatur logo dan label kiln*/
+.kiln {float: left;
+       width: 50px; 
+       height: 50px;
+       margin-left: 25px;
+       margin-top: 15px;}
+
+p {font-size: 15px; 
+   float: left; 
+   margin-left: 15px; 
+   font-size: 30px; 
+   margin-right: 80px;
+   margin-top: -8px;}
+
+/*mengatur menu pulldown*/
+nav {position: relative;
+     background: white; 
+     width: 100%; 
+     height: 90px; 
+     line-height: 100px;}
+nav {position: sticky; 
+     top: 0; 
+     z-index: 5;}
+
+nav ul li {float: left; 
+           list-style: none; 
+           margin-right: 15px; 
+           margin-top: -10px; 
+           font-size: 17px;}
+
+nav ul li a {margin-right: 10px; 
+             text-decoration: none; 
+             color: black;}
+
+nav ul li ul {display: none; 
+              position: absolute; 
+              z-index: 1;}
+
+nav ul li:hover ul {display: block; } 
+
+nav ul li ul li {float: none; 
+                 padding: 20px; 
+                 background-color: white; 
+                 line-height: 20px; 
+                 text-align: left;}
+
+nav ul li ul li a {margin-top: 3px;}
+
+nav ul li a:hover {color: rgb(7, 127, 131); 
+                   transition: 0.3s;}
+
+nav ul li:hover {background: white;}
+
+/*mengatur menu sebelah kanan*/
+.icon {float: right;
+       width: 32%;
+       height: 100%;}
+
+.icon img {width: 15px; 
+           float: left; 
+           margin: 32px 15px 0 0; }
+
+.icon .phone {float: left; 
+              margin-left: 3px;
+              margin: 32px 10px 0 0;}
+           
+.icon .no {font-size: 17px; 
+           margin: -10px 25px 0 0; 
+           float: left;} 
+
+.icon .search {float: right; 
+               padding: 38px 20px 39px 20px; 
+               margin: 0px 0 0 0;
+               background: rgba(7, 127, 131, 0.404);}
+
+/*mengatur banner*/
+.banner {position: relative;
+         width: 100%; }
+
+.banner img {width: 100%; 
+             position: relative;}
+
+.container_banner {width: 100%;
+                   position: absolute;
+                   top: 40%; 
+                   height: 100px;}
+
+.banner .text {position: absolute;  
+               width: 100%;
+               text-align: center;
+               color: rgb(6, 68, 71);
+               font-size: 60px; 
+               font-family: 'Times New Roman';}
+
+.banner .text1 {position: absolute; 
+                width: 100%;
+                text-align: center;
+                top: 75%; 
+                color: rgb(6, 68, 71);
+                font-size: 25px; }
+
+/*mengatur container collection*/
+.container_collection {width: 100%;
+                       height: 2850px;
+                       position: relative;
+                       float: left;}
+ 
+.wrap_collection {width: 100%;
+                  height: 2650px; 
+                  position: relative;
+                  float: left; 
+                  margin: 8% 0;}
+ 
+.colls {width: 1000px;
+        position: relative;
+        margin: auto;
+        height: 100%;}
+ 
+.container_left {width: 65%;
+                 height: 100%; 
+                 float: left;
+                 position: relative;
+                 font-family: "Book Antiqua" , serif;} 
+
+.container_left .colls1 {width: 100%; 
+                         height: 17.5%;
+                         background: whitesmoke; 
+                         position: relative;
+                         float: left;}  
+
+.container_left .colls1 img {width: 100%; 
+                             height: 72%; 
+                             position: relative;}
+
+.container_left .colls1 .bname .name {color: white;
+                                      font-size: 20px;
+                                      position: absolute; 
+                                      background: rgb(7, 127, 131);
+                                      top: 69%; 
+                                      padding: 5px;
+                                      width: 15%; 
+                                      border-radius: 7px; 
+                                      text-align: center;}
+
+.container_left .colls1 .bname:hover .name {display: none;}
+
+.container_left .colls1 .bname .price {color: white; 
+                                       font-size: 20px; 
+                                       position: absolute; 
+                                       width: 15%; 
+                                       display: none;
+                                       background: rgb(7, 127, 131);
+                                       top: 69%; 
+                                       padding: 5px;
+                                       border-radius: 7px; 
+                                       text-align: center;}
+                                       
+.container_left .colls1 .bname:hover .price {display: block;}      
+
+.container_left .colls1 .desc_colls a  {font-size: 27px; 
+                                        float: left; 
+                                        margin: 15px 0 0 15px;
+                                        font-family: garamond; 
+                                        text-decoration: none; 
+                                        color: rgb(7, 127, 131);}
+
+.container_left .colls1 .desc_colls a:hover {color:  rgb(6, 68, 71);}
+
+.container_left .colls1 .desc_colls p {font-size: 14px; 
+                                       font-family: garamond;
+                                       margin: 8px 0 15px 15px;
+                                       color: gray;}
+                         
+.container_left .colls1 .fa-user {color: gray; 
+                                  float: left; 
+                                  font-size: 13px; 
+                                  margin-left: 15px;}
+
+.container_left .colls1 .fa-comments {color: gray; 
+                                      float: left;
+                                      margin-left: 40px; 
+                                      font-size: 13px; }  
+                                      
+.colls1 .fa-user:hover , .colls1 .fa-comments:hover {color:  rgb(6, 68, 71);}
+
+
+
+.container_left .colls2 {width: 100%; 
+                         height: 17.5%; 
+                         margin-top: 10%;
+                         background: whitesmoke; 
+                         position: relative;
+                         float: left;}  
+
+.container_left .colls2 img {width: 100%; 
+                             height: 72%; 
+                             position: relative;}
+
+.container_left .colls2 .bname .name {color: white;
+                                      font-size: 20px;
+                                      position: absolute; 
+                                      background: rgb(7, 127, 131);
+                                      top: 69%; 
+                                      padding: 5px;
+                                      width: 15%; 
+                                      border-radius: 7px; 
+                                      text-align: center;}
+
+.container_left .colls2 .bname:hover .name {display: none;}
+
+.container_left .colls2 .bname .price {color: white; 
+                   font-size: 20px; 
+                   position: absolute; 
+                   width: 15%; 
+                   display: none;
+                   background: rgb(7, 127, 131);
+                   top: 69%; 
+                   padding: 5px;
+                   border-radius: 7px; 
+                   text-align: center;}
+                   
+.container_left .colls2 .bname:hover .price {display: block;}      
+
+.container_left .colls2 .desc_colls a  {font-size: 27px; 
+                    float: left; 
+                    margin: 15px 0 0 15px;
+                    font-family: garamond; 
+                    text-decoration: none; 
+                    color: rgb(7, 127, 131);}
+
+.container_left .colls2 .desc_colls a:hover {color:  rgb(6, 68, 71);}
+
+.container_left .colls2 .desc_colls p {font-size: 14px; 
+                                       font-family: garamond;
+                                       margin: 8px 0 15px 15px;
+                                       color: gray;}
+     
+.container_left .colls2 .fa-user {color: gray; 
+                                  float: left; 
+                                  font-size: 13px; 
+                                  margin-left: 15px;}
+
+.container_left .colls2 .fa-comments {color: gray; 
+                                      float: left;
+                                      margin-left: 40px; 
+                                      font-size: 13px;}  
+                  
+.colls2 .fa-user:hover , .colls2 .fa-comments:hover {color:  rgb(6, 68, 71);}
+
+
+
+.container_left .colls3 {width: 100%; 
+                         height: 17.5%;
+                         background: whitesmoke; 
+                         position: relative;
+                         margin-top: 10%;
+                         float: left;}  
+
+.container_left .colls3 img {width: 100%; 
+                             height: 72%; 
+                             position: relative;}
+
+.container_left .colls3 .bname .name {color: white;
+                                      font-size: 20px;
+                                      position: absolute; 
+                                      background: rgb(7, 127, 131);
+                                      top: 69%; 
+                                      padding: 5px;
+                                      width: 15%; 
+                                      border-radius: 7px; 
+                                      text-align: center;}
+
+.container_left .colls3 .bname:hover .name {display: none;}
+
+.container_left .colls3 .bname .price {color: white; 
+                                       font-size: 20px; 
+                                       position: absolute; 
+                                       width: 15%; 
+                                       display: none;
+                                       background: rgb(7, 127, 131);
+                                       top: 69%; 
+                                       padding: 5px;
+                                       border-radius: 7px; 
+                                       text-align: center;}
+                   
+.container_left .colls3 .bname:hover .price {display: block;}      
+
+.container_left .colls3 .desc_colls a  {font-size: 27px; 
+                                        float: left; 
+                                        margin: 15px 0 0 15px;
+                                        font-family: garamond; 
+                                        text-decoration: none; 
+                                        color: rgb(7, 127, 131);}
+
+.container_left .colls3 .desc_colls a:hover {color:  rgb(6, 68, 71);}
+
+.container_left .colls3 .desc_colls p {font-size: 14px; 
+                                       font-family: garamond;
+                                       margin: 8px 0 15px 15px;
+                                       color: gray;}
+     
+.container_left .colls3 .fa-user {color: gray; 
+                                  float: left; 
+                                  font-size: 13px; 
+                                  margin-left: 15px;}
+
+.container_left .colls3 .fa-comments {color: gray; 
+                                      float: left;
+                                      margin-left: 40px; 
+                                      font-size: 13px;}  
+                  
+.colls3 .fa-user:hover , .colls3 .fa-comments:hover {color:  rgb(6, 68, 71);}
+
+
+
+.container_left .colls4 {width: 100%; 
+                         height: 17.5%; 
+                         margin-top: 10%;
+                         background: whitesmoke; 
+                         position: relative;
+                         float: left;}  
+
+.container_left .colls4 img {width: 100%; 
+                             height: 72%; 
+                             position: relative;}
+
+.container_left .colls4 .bname .name {color: white;
+                                      font-size: 20px;
+                                      position: absolute; 
+                                      background: rgb(7, 127, 131);
+                                      top: 69%; 
+                                      padding: 5px;
+                                      width: 15%; 
+                                      border-radius: 7px; 
+                                      text-align: center;}
+
+.container_left .colls4 .bname:hover .name {display: none;}
+
+.container_left .colls4 .bname .price {color: white; 
+                                       font-size: 20px; 
+                                       position: absolute; 
+                                       width: 15%; 
+                                       display: none;
+                                       background: rgb(7, 127, 131);
+                                       top: 69%; 
+                                       padding: 5px;
+                                       border-radius: 7px; 
+                                       text-align: center;}
+                   
+.container_left .colls4 .bname:hover .price {display: block;}      
+
+.container_left .colls4 .desc_colls a  {font-size: 27px; 
+                    float: left; 
+                    margin: 15px 0 0 15px;
+                    font-family: garamond; 
+                    text-decoration: none; 
+                    color: rgb(7, 127, 131);}
+
+.container_left .colls4 .desc_colls a:hover {color:  rgb(6, 68, 71);}
+
+.container_left .colls4 .desc_colls p {font-size: 14px; 
+                                       font-family: garamond;
+                                       margin: 8px 0 15px 15px;
+                                       color: gray;}
+     
+.container_left .colls4 .fa-user {color: gray; 
+                                  float: left; 
+                                  font-size: 13px; 
+                                  margin-left: 15px;}
+
+.container_left .colls4 .fa-comments {color: gray; 
+                                      float: left;
+                                      margin-left: 40px; 
+                                      font-size: 13px; }  
+                  
+.colls4 .fa-user:hover , .colls4 .fa-comments:hover {color:  rgb(6, 68, 71);}
+
+
+
+.container_left .colls5 {width: 100%; 
+                         height: 17.5%; 
+                         margin-top: 10%;
+                         background: whitesmoke; 
+                         position: relative;
+                         float: left;}  
+
+.container_left .colls5 img {width: 100%; 
+                             height: 72%; 
+                              position: relative;}
+
+.container_left .colls5 .bname .name {color: white;
+                                      font-size: 20px;
+                                      position: absolute; 
+                                      background: rgb(7, 127, 131);
+                                      top: 69%; 
+                                      padding: 5px;
+                                      width: 15%; 
+                                      border-radius: 7px; 
+                                      text-align: center;}
+
+.container_left .colls5 .bname:hover .name {display: none;}
+
+.container_left .colls5 .bname .price {color: white; 
+                                       font-size: 20px; 
+                                       position: absolute; 
+                                       width: 15%; 
+                                       display: none;
+                                       background: rgb(7, 127, 131);
+                                       top: 69%; 
+                                       padding: 5px;
+                                       border-radius: 7px; 
+                                       text-align: center;}
+                   
+.container_left .colls5 .bname:hover .price {display: block;}      
+
+.container_left .colls5 .desc_colls a  {font-size: 27px; 
+                                        float: left; 
+                                        margin: 15px 0 0 15px;
+                                        font-family: garamond; 
+                                        text-decoration: none; 
+                                        color: rgb(7, 127, 131);}
+
+.container_left .colls5 .desc_colls a:hover {color:rgb(6, 68, 71);}
+  
+.container_left .colls5 .desc_colls p {font-size: 14px; 
+                                       font-family: garamond;
+                                       margin: 8px 0 15px 15px;
+                                       color: gray;}
+     
+.container_left .colls5 .fa-user {color: gray; 
+                                  float: left; 
+                                  font-size: 13px; 
+                                  margin-left: 15px;}
+
+.container_left .colls5 .fa-comments {color: gray; 
+                                      float: left;
+                                      margin-left: 40px; 
+                                      font-size: 13px; }  
+                  
+.colls5 .fa-user:hover , .colls5 .fa-comments:hover {color:  rgb(6, 68, 71);}
+
+
+.container_left .pagination {width: 100%; 
+                             float: left;
+                             margin: auto; 
+                             transform: translateX(33%);
+                             padding: 15px;
+                             margin-top: 25px;}
+
+.container_left .pagination a {padding: 2px 8px;
+                               text-decoration: none;
+                               color: rgb(7, 127, 131);}
+
+.container_left .pagination a:hover:not(.active) {background-color: rgb(7, 127, 131);
+                                                  border-radius: 50%; 
+                                                  color: white;}
+                    
+.container_left .pagination a.active {background-color: rgb(7, 127, 131);
+                                      color: white; 
+                                      border-radius: 50%;}
+
+
+/*mengatur container kanan*/
+.container_right {width: 35%;
+                  height: 100%; 
+                  position: relative;
+                  float: left;
+                  font-family: "Book Antiqua" , serif;}
+
+.container_right h1 {font-size: 14px;
+                     width: 100%; float: left;
+                     padding-bottom: 10px;
+                     border-bottom: 1px solid rgb(190, 187, 187);}
+
+/*mengatur search*/
+.container_right form {background: whitesmoke; 
+                       float: right;
+                       padding: 10px 20px; 
+                       width: 75%;}
+
+.container_right form [name="search"] {width:100%; 
+                                       float: right;
+                                       height: 30px;}
+
+.container_right .fa-search {float: right; 
+                             margin: -25px 10px 0 0; 
+                             border: none; 
+                             background: none;}
+                          
+.container_right .submit {margin: 10px 0 0 -4px; 
+                          width: 267px; 
+                          padding: 5px;
+                          background-color:  rgb(7, 127, 131); 
+                          border: none; 
+                          color: white;}
+
+.container_right .submit:hover {background-color: rgb(6, 68, 71); 
+                                transition: 0.7s;}
+
+/*mengatur category*/
+.container_right .category {background: whitesmoke; 
+                            float: right;
+                            padding: 10px 20px; 
+                            width: 75%; 
+                            margin-top: 20px; 
+                            font-family:  Arial, Helvetica, sans-serif; 
+                            font-size: 14px;}
+
+.container_right .cat {border-bottom: 1px solid rgb(190, 187, 187); 
+                       padding: 5px 0;} 
+
+.container_right .cat a {text-decoration: none; 
+                         color: black;}
+
+.container_right .cat a:hover {color: rgb(7, 127, 131); transition: 0.3s;}
+
+/*mengatur recent post*/
+.container_right .post {background: whitesmoke; 
+                        float: right;
+                        padding: 10px 20px; 
+                        margin-top: 20px;
+                        width: 75%;
+                        font-family:  Arial, Helvetica, sans-serif;}
+
+.container_right .kiriimg {float: left;
+                           width: 30%;}
+
+.container_right .kiriimg img {width: 100%; 
+                               display: block; 
+                               margin-top: 15px;}
+
+.container_right .kanantxt {float: left;
+                            font-size: 10px; width: 70%; }
+
+.container_right .kanantxt .txt1 a:hover, 
+.container_right .kanantxt .txt2 a:hover,
+.container_right .kanantxt .txt3 a:hover,
+.container_right .kanantxt .txt4 a:hover {color: rgb(7, 127, 131);}
+
+.container_right .kanantxt .txt1 {height: 40px;
+                                  margin-top: 40px; 
+                                  padding-left: 15px;}
+
+.container_right .kanantxt .txt1 a {width: 100%; 
+                                    font-size: 15px;
+                                    text-decoration: none; 
+                                    color: black;} 
+
+.container_right .kanantxt .txt1 p {width: 100%; 
+                                    font-size: 12px; 
+                                    margin: 5px 0; color: gray;} 
+
+                              
+.container_right .kanantxt .txt2 {height: 40px;
+                                  margin-top: 50px; 
+                                  padding-left: 15px;}
+      
+.container_right .kanantxt .txt2 a {width: 100%; 
+                                   font-size: 15px;
+                                   text-decoration: none; 
+                                   color: black;} 
+
+.container_right .kanantxt .txt2 p {width: 100%; 
+                                   font-size: 12px; 
+                                   margin: 5px 0; color: gray;}
+
+
+.container_right .kanantxt .txt3 {height: 40px;
+                                  margin-top: 55px; 
+                                  padding-left: 15px;}
+            
+.container_right .kanantxt .txt3 a {width: 100%; 
+                                    font-size: 15px;
+                                    text-decoration: none; 
+                                    color: black;} 
+      
+.container_right .kanantxt .txt3 p {width: 100%; 
+                                    font-size: 12px; 
+                                    margin: 5px 0; color: gray;}
+
+     
+.container_right .kanantxt .txt4 { height: 40px;
+                                  margin-top: 50px; 
+                                  padding-left: 15px;}
+                  
+.container_right .kanantxt .txt4 a {width: 100%; 
+                                    font-size: 15px;
+                                    text-decoration: none; 
+                                    color: black;} 
+
+.container_right .kanantxt .txt4 p {width: 100%; 
+                                    font-size: 12px; 
+                                    margin: 5px 0; color: gray;}
+
+          
+                                   
+/*mengatur tag*/
+.container_right .tag {background: whitesmoke; 
+                       float: right;
+                       padding: 10px 20px; 
+                       margin-top: 20px;
+                       width: 75%;
+                       font-family:  Arial, Helvetica, sans-serif;}
+
+.container_right .tagcloud  {width: 100%;
+                             float: left; 
+                             margin-top: 18px;}
+
+.container_right .tagcloud a {text-decoration: none; 
+                              background: white; 
+                              padding: 2% 2.5%; border: 1px solid rgb(177, 177, 177);
+                              font-size: 13px;
+                              color: black;}
+
+.container_right .tagcloud a:hover { background: rgb(7, 127, 131); 
+                                     color: white; 
+                                     transition: 0.5s;}
+
+.container_right .tagcloud .dua {margin: 0 5px;}
+
+.container_right .tagcloud .empat {float: left; 
+                                   margin: 13px 5px 10px 0;}
+
+.container_right .tagcloud .lima {float: left; 
+                                  margin: 13px 5px;}
+
+.container_right .tagcloud .enam {float: left; 
+                                  margin: 13px 0 13px 5px;}
+
+.container_right .tagcloud .tujuh {float: left; 
+                                   margin-right: 5px;}
+ 
+.container_right .tagcloud .delapan {float: left; 
+                                     margin-left: 5px;}
+
+                         
+/*mengatur container instagram feeds*/
+.container_right .instagram {background: whitesmoke; 
+                             float: right;
+                             padding: 10px 20px; 
+                             margin-top: 20px;
+                             width: 75%;
+                             font-family:  Arial, Helvetica, sans-serif;}
+
+.container_right .instagram .pict {float: left; 
+                                   margin-top: 15px;
+                                   width: 100%;}
+
+.container_right .instagram .pict img {width: 30%; 
+                                       margin: 2% 2% 0 0; 
+                                       cursor: pointer;}
+
+
+/*mengatur container newsletter*/
+.container_right .newsletter {background: whitesmoke; 
+                             float: right;
+                             padding: 10px 20px; 
+                             margin-top: 20px;
+                             width: 75%;
+                             font-family:  Arial, Helvetica, sans-serif;}
+
+.container_right .newsletter form {width: auto;
+                                   float: left; 
+                                   margin-top: 15px;}
+
+.container_right .newsletter form [name="email"] {width: 240px; 
+                                                  float: left; 
+                                                  height: 30px; 
+                                                  padding: 0 10px; 
+                                                  margin: 0 -20px;}
+
+.container_right .newsletter form .submit1 { margin: 10px -20px 0 -20px; 
+                                             width: 264px; 
+                                             padding: 5px;
+                                             background-color: rgb(7, 127, 131); 
+                                             border: none; 
+                                             color: white;}
+
+.container_right .newsletter .submit1:hover {background-color: rgb(6, 68, 71);
+                                             transition: 0.7s;}
+
+
+/*mengatur footer*/
+footer {width: 100%; 
+        margin: auto;
+        float: left; 
+        background: rgb(7, 127, 131);}
+
+footer .widget {width: 100%; 
+               margin: 5% 0;
+               height: 350px;}
+
+footer .widget .widget_tools {height: 100%; 
+                              margin: 0 10%;
+                              letter-spacing: 1.5px;}
+
+footer .widget .widget_tools .logo {float: left;
+                                   width: 25%;         
+                                   height: 100%;} /*mengatur container logo*/
+
+footer .logo .logo_kiln {width: 25%; 
+                         margin-top: 20px; 
+                         float: left;}
+
+footer .logo .brand_name {margin-top: 35px; 
+                         float: left; 
+                         font-size: 23px; 
+                         text-decoration: none;
+                         width: 154px;
+                         color: white;
+                         margin-left: 15px;}
+
+.widget_alamat {float: left; 
+                margin: 81px 0;
+                color: white;  
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.widget_alamat p {font-size: 13px;
+                  margin-left: 0; 
+                  width: 100%; }
+
+.widget_alamat a {font-size: 13px; 
+                  text-decoration: none; 
+                  color: white;}
+
+.widget_alamat a:hover {color: rgb(3, 40, 42);
+                        transition: 0.5s;}
+
+footer .logo img {width: 10%; 
+                  float: left}
+
+.widget_icon .image {margin-right: 20px; 
+                     width: 20px;}
+
+.widget_tools .collection {float: left;
+                           width: 20%;
+                           margin-left: 0px;
+                           height: 100%;} /*mengatur container collection*/
+
+.widget_tools .collection .collect .header {margin-top: 18px;
+                                            font-size: 23px; 
+                                            width: 195px;
+                                            margin-bottom: 45px;
+                                            color: white;
+                                            margin-left: 0;}
+                                         
+.morec a {margin-top: 17.5px; 
+          font-size: 13px; 
+          display: block;
+          text-decoration: none;
+          color: white;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.morec a:hover {color: rgb(3, 40, 42);
+                transition: 0.5s;}
+
+.widget_tools .branch {float: left;
+                       width: 25%;
+                       height: 100%;} /*mengatur container branch*/
+
+.branch .boffice .header {margin-top: 35px;
+                          font-size: 23px; 
+                          width: 173px; 
+                          margin-bottom: 29px;
+                          color: white; 
+                          margin-left: 0;}
+
+.moreb .kiri  {width: 40%; 
+               float: left;}
+
+.moreb .kanan {width: 45%; 
+               float: left;
+               margin-left: 30px;}
+
+.moreb .kiri a , .moreb .kanan a {display: block; 
+                                  padding-right: 12px;
+                                  margin-top: 17px;
+                                  color: white; 
+                                  text-decoration: none;
+                                  font-size: 13px;
+                                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.moreb .kiri a:hover {color: rgb(3, 40, 42); 
+                      transition: 0.5s;}
+
+.moreb .kanan a:hover {color: rgb(3, 40, 42);
+                       transition: 0.5s;}
+
+.insta {float: left;
+        width: 27.5%;
+        margin-left: 0px;
+        height: 100%;} /*mengatur container grid ig*/
+
+.insta .ig {margin-top: 35px;
+            font-size: 23px; 
+            width: 115px; 
+            margin-bottom: 45px; 
+            color: white; 
+            margin-left: 0;}
+  
+.grid , .grid  {width: 255px;
+                margin: 100px 0;}   /*harus ada perbaikan grid*/
+
+.insta .grid img {width: 80px;
+                  margin: 3px 0.5px;
+                  border-radius: 7px;}
+
+footer .ftbawah  .cpyrght {width: 1100px;
+                           padding: 35px 0;
+                           margin: auto; 
+                           border-top: 3px solid rgb(5, 100, 104);} /*mengatur container footer bawah*/
+
+.cpyrght p, .cpyrght a {width: 100%;
+                        color: white; 
+                        text-decoration: none;
+                        text-align: center; 
+                        font-size: 17px;
+                        margin-left: 0;}
+
+.cpyrght a {color:  rgb(8, 47, 49);}
